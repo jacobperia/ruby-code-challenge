@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'json'
-require 'json-schema' # Gem for validating the data. Run `gem install json-schema`.
+require 'json-schema' # Gem for validating the data. Install gem before running the script.
 
 # This class loads data from the json files in the data folder and generates the expected output data
 class DataLoader
